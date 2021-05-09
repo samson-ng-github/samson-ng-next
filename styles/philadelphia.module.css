@@ -1,0 +1,56 @@
+.container {
+  position: relative;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.billboard1 {
+  position: absolute;
+  border: none;
+  width: 970px;
+  height: 250px;
+  left: 0;
+  top: 0;
+}
+
+.billboard2 {
+  position: absolute;
+  border: none;
+  width: 970px;
+  height: 250px;
+  left: 0px;
+  top: 250px;
+  transform: translate(0, 1rem);
+}
+
+.billboard3 {
+  position: absolute;
+  border: none;
+  width: 970px;
+  height: 250px;
+  left: 0px;
+  top: 500px;
+  transform: translate(0, 2rem);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 0rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+
+  .billboard1,
+  .billboard2,
+  .billboard3 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transform: translate(0, 0);
+    margin-bottom: 1rem;
+    align-self: flex-start;
+  }
+}

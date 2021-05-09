@@ -1,0 +1,91 @@
+.aside {
+  width: 250px;
+  text-align: left;
+}
+
+.asideLogo {
+  width: 170px;
+  height: auto;
+  margin: 40px;
+  cursor: pointer;
+}
+
+.nav {
+  padding: 0;
+  margin: 0 40px;
+  font-size: 0.9rem;
+}
+
+.aboutMe {
+  display: block;
+  text-decoration: none;
+  font-family: Kontrapunkt-Bold;
+}
+
+.projects,
+.hashtags {
+  list-style-type: none;
+  margin: 2em 0;
+}
+
+.hashtagLink {
+  display: block;
+  text-decoration: none;
+  margin-bottom: 0.5em;
+  cursor: pointer;
+}
+
+.hashtagLink:hover {
+  font-family: Kontrapunkt-Bold;
+}
+
+.cv {
+  margin-bottom: 1rem;
+}
+
+.cvButton {
+  cursor: pointer;
+  border-radius: 3px;
+  color: white;
+  background-color: #aaa;
+  padding: 5px 6px 4px 6px;
+  font-family: Kontrapunkt-Bold;
+  text-decoration: none;
+  border: 0;
+}
+
+.socialMediaIcon {
+  width: 1rem;
+  margin: 0.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+  .aside {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nav {
+    margin: 0 35px 35px 35px;
+  }
+  .projects {
+    margin: 1.5em 0 1rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .hashtags {
+    margin: 1em 0 1.5rem 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .hashtagLink {
+    margin: 0 0.8rem 0.5em 0;
+  }
+
+  .hashtagLink:hover {
+    font-family: Kontrapunkt;
+  }
+}

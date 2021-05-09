@@ -1,0 +1,57 @@
+.container {
+  position: relative;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.mpu {
+  position: absolute;
+  border: none;
+  width: 300px;
+  height: 250px;
+  left: 300px;
+  top: 0px;
+  transform: translate(1rem, 0);
+}
+
+.dmpu {
+  position: absolute;
+  border: none;
+  width: 300px;
+  height: 600px;
+  left: 0;
+  top: 0;
+}
+
+.leaderboard {
+  position: absolute;
+  border: none;
+  width: 728px;
+  height: 90px;
+  left: 300px;
+  top: 250px;
+  transform: translate(1rem, 1rem);
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 0rem;
+    margin: 0 0 1rem 0;
+  }
+
+  .mpu,
+  .dmpu {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    transform: translate(0, 0);
+    margin-bottom: 1rem;
+  }
+
+  .leaderboard {
+    display: none;
+  }
+}
