@@ -1,1 +1,1 @@
-My online portfolio rewritten in Next.js
+My online portfolio samson-ng.com, rewritten in Next.
