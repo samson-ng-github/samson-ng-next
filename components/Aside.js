@@ -113,6 +113,17 @@ const Aside = ({ originalProjects, resetProjects }) => {
             ></img>
           </a>
           <a
+            href="https://github.com/samson-ng-github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              className={styles.socialMediaIcon}
+              alt="GitHub"
+              src="/assets/social_media_icons/github.svg"
+            ></img>
+          </a>
+          <a
             href="https://www.instagram.com/samson.ng.travels/"
             target="_blank"
             rel="noreferrer"
